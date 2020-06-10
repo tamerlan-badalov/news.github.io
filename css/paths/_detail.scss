@@ -1,0 +1,246 @@
+#detail-section{
+    .blog-wrapper{margin-bottom: 0;}
+}
+.details-wrapper {
+  .detail-img {
+    img {
+      width: 100%;
+    }
+  }
+  .blog-bottom {
+    padding: 26px 0 0 0;
+    box-shadow: none;
+
+    .blog-text {
+      .section-header-name {
+        margin: 0;
+      }
+      .blog-comment {
+        margin: 15px 0 24px 0;
+      }
+    }
+  }
+}
+.inner-text {
+  border: 30px solid #f2f3f7;
+  margin-bottom: 30px;
+  .inner-border {
+    padding: 26px 32px 20px 32px;
+    border-left: 2px solid #888888;
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      font-style: italic;
+      color: #888888;
+    }
+  }
+}
+.blog-like {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  .like-wrapper {
+    padding: 15px 0 25px 0;
+    .like-links {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      span {
+        color: #506172;
+      }
+      .like-social {
+        ul {
+          display: flex;
+          li {
+            margin-right: 15px;
+            &:last-child {
+              margin: 0;
+            }
+            a {
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 14px;
+              color: #999999;
+              &:hover {
+                color: #fc3f00;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.like-arrows {
+  margin-top: 60px;
+  .left-arrow {
+    display: flex;
+    align-items: center;
+    &:hover {
+      .arrow-img::before {
+        opacity: 0.5;
+      }
+    }
+    &:hover {
+      .arrow-img > .arrow-prev > a > i {
+        opacity: 1;
+        color: #fff;
+      }
+    }
+    .arrow-img {
+      position: relative;
+      a {
+        text-decoration: none;
+        i {
+          transition: 0.3s;
+          opacity: 0;
+          font-size: 16px;
+          &:hover {
+            color: #fc3f00 !important;
+            opacity: 1 !important;
+          }
+        }
+      }
+      &::before {
+        content: "";
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        display: inline-block;
+        background-color: #000;
+        opacity: 0;
+        position: absolute;
+        transition: 0.3s;
+      }
+      .arrow-prev {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+  .arrow-caption {
+    margin-left: 20px;
+    span {
+      color: #506172;
+    }
+    h6 {
+      .small-link {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+        color: #000;
+        text-decoration: none;
+        transition: 0.3s;
+        &:hover {
+          color: #fc3f00;
+        }
+      }
+    }
+  }
+  .right-arrow {
+    .arrow-caption {
+      text-align: end;
+      margin: 0 20px 0 0;
+    }
+  }
+}
+.small-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #000;
+  text-decoration: none !important;
+  transition: 0.3s;
+  &:hover {
+    color: #fc3f00;
+  }
+}
+.author-comment {
+  margin-top: 50px;
+  background: #fbf9ff;
+  padding: 40px 30px;
+  .author-comment-inner {
+    display: flex;
+    align-items: center;
+    .author-info {
+      margin-left: 25px;
+      p {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 400;
+        color: #506172;
+      }
+    }
+  }
+}
+.user-coment {
+  margin-top: 50px;
+  padding-top: 50px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 50px;
+  .user-coment-wrapper{
+      margin-bottom: 45px;
+  }
+  .coment-count {
+    margin-bottom: 35px;
+    h6 {
+      margin: 0;
+    }
+  }
+  .coment-part {
+    display: flex;
+    .coment-text {
+      margin-left: 15px;
+      p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #777777;
+        margin: 0;
+      }
+      .coment-function {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        .d-flex {
+          span {
+            margin-left: 15px;
+          }
+        }
+        span {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 30px;
+          color: #999999;
+        }
+        a {
+          text-decoration: none !important;
+          span {
+            &:hover {
+              color: #fc3f00 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.detail-input-header{
+    margin:40px 0;
+    h6{
+        font-size: 18px;
+    }
+}
+.blog-bottom{
+    .button-box{
+        a{
+            letter-spacing: 3px;
+            text-transform: uppercase !important;
+           
+        }
+    }
+}

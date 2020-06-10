@@ -1,0 +1,37 @@
+.contact-wrapper{
+    margin: 130px 0 40px 0;
+}
+.get-touch{
+    margin-top: 60px;
+}
+.contact-icons{
+margin-left: 100px;
+
+    .adress{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+       .adress-info{
+           margin-left: 20px;
+           
+       }
+        h3{
+            font-size: 16px;
+            line-height: 19px;
+            color: #2a2a2a;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #8a8a8a;
+            margin: 0;
+        }
+        i{
+            font-size: 27px;
+            font-weight: 600;
+            color: #8f9195;
+        }
+    }
+}
+.mg-l{margin-left: 35px !important;}
